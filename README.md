@@ -216,6 +216,7 @@ The script opens a GUI for attendance tracking, allowing users to start and stop
 Dependencies
 Ensure that the required Python packages are installed before running the application. Install them using:
 
+
 bash
 Copy code
 pip install Flask MyQR opencv-python pyzbar
