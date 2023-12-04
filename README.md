@@ -224,8 +224,7 @@ Note: MyQR requires additional dependencies for image processing. Follow the ins
 
 Manual Data Input
 The project also supports manual data input using the script input_byuser.py. Run the script and follow the prompts to input data into the system.**
-
-Feel free to customize the project according to your specific requirements.
+please chock out our youtube chanell for the working - https://youtu.be/IntLbam6hAU .
 
 
 
