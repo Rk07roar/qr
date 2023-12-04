@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Data Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="background-image">
+        <img src="{{ url_for('static', filename='home.png') }}" alt="Background Image">
+    </div>
+    <div class="overlay"></div>
+    <div class="container">
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="class">Class:</label>
+            <input type="text" id="class" name="class" required><br>
+
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" name="roll" required><br>
+
+            <label for="section">Section:</label>
+            <input type="text" id="section" name="section" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+</body>
+</html>
+
+
